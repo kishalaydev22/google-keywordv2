@@ -32,9 +32,9 @@ const keywordVolume = async (query) => {
 exports.keywordController = async (req, res) => {
     try {
         const { keyword } = req.body
-        const keywordData = await keywordVolume(keyword)
+        // const keywordData = await keywordVolume(keyword)
         res.status(200).json({
-            keywordData: keywordData
+            keywordData: keyword
         })
 
 
