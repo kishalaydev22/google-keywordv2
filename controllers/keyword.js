@@ -13,7 +13,7 @@ const keywordVolume = async (query) => {
     try {
         const customer = client.Customer({
             customer_id: '3300180123',
-            refresh_token: '1//0geb1hrh0le_VCgYIARAAGBASNwF-L9Irnf-6TqdSbhMuVlSThJbJRlTLAoLmqjBZfApMgbuPkAu70F02LA0R_rK_Fs2dbTzC8Qg',
+            refresh_token: '1//0gZ6-FhpkRpUXCgYIARAAGBASNwF-L9Ir74bUleabFmOGP37J2YbiF3XI5umHCXN5hDggrcu5jLxHsZNvlG6Rp8Pe2WlXBQj9D6Y',
         });
         const keywordSeed = new services.KeywordSeed({ keywords: query });
         const generateKeywordIdeaResponse =
