@@ -3,7 +3,7 @@ const cors = require('cors'); // Import CORS middleware
 const keyword = require('./routers/keyword');
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 
 // Enable CORS for all origins
